@@ -1,6 +1,6 @@
-<?php namespace Pixels\OrderManager;
+<?php namespace SocialPixelsLtd\OrderManager;
 
-use Pixels\OrderManager\Classes\Manager;
+use SocialPixelsLtd\OrderManager\Classes\Manager;
 use System\Classes\BaseExtension;
 
 /**

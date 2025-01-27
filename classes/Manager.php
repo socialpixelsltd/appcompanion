@@ -1,4 +1,4 @@
-<?php namespace Pixels\OrderManager\Classes;
+<?php namespace SocialPixelsLtd\OrderManager\Classes;
 
 use Exception;
 use Igniter\Flame\Exception\ApplicationException;

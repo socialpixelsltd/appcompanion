@@ -1,8 +1,8 @@
 {
-  "name": "pixels/app-companion",
+  "name": "socialpixelsltd/appcompanion",
   "type": "tastyigniter-extension",
-  "description": "Print receipt, manage orders and more. App Companion for TastyIgniter to help with your orders. ",
-  "license": "EULA",
+  "description": "App Companion for TastyIgniter to help with your orders. Print receipt, manage orders and more.",
+  "license": "proprietary",
   "authors": [
     {
       "name": "Social Pixels Ltd",
@@ -13,24 +13,24 @@
     "tastyigniter",
     "orders",
     "ordermanager",
-    "android app",
-    "app companion",
-    "print receipt",
-    "receipt printer"
+    "android-app",
+    "app-companion",
+    "print-receipt",
+    "receipt-printer"
   ],
-  "require": {
-   "tastyigniter/ti-ext-api":"^1.6.1"
-  },
-  "extra": {    
+  "extra": {
     "tastyigniter-extension": {
-      "code": "pixels.app-companion",
+      "code": "socialpixelsltd.appcompanion",
       "name": "App Companion",
       "icon": {
         "class": "fa fa-mobile",
         "backgroundColor": "#F97316",
         "color": "#FFF"
       },
-      "homepage": "https://socialpixels.co.uk"
+      "homepage": "https://socialpixels.co.uk",
+      "require": {
+        "igniter.api": "*"
+      }
     }
   }
 }
